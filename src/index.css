@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-blue: #3B68A8;
+    --brand-blue-glow: rgba(59, 104, 168, 0.2);
+    --brand-dark: #000000;
+    --brand-card: #0A0E17;
+    --brand-card-border: #1E293B;
+  }
+
+  body {
+    background-color: #05070B;
+    color: #E2E8F0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Subtle ring pulse animation */
+@keyframes ring-subtle-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-subtle-spin {
+  animation: ring-subtle-spin 60s linear infinite;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05070B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3B68A8;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ONB Sales Firm",
+  "description": "ONB is a sales firm focused on sales development, appointment setting, prospect engagement, sales talent development, and building remote sales teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

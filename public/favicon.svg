@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="36" fill="#000000" />
+  
+  {/* Circular Blue Ring with Top & Bottom Splits */}
+  <path
+    d="M 102 34 A 66 66 0 0 1 166 100 A 66 66 0 0 1 102 166"
+    stroke="#3B68A8"
+    stroke-width="10"
+    stroke-linecap="square"
+    fill="none"
+  />
+  <path
+    d="M 98 34 A 66 66 0 0 0 34 100 A 66 66 0 0 0 98 166"
+    stroke="#3B68A8"
+    stroke-width="10"
+    stroke-linecap="square"
+    fill="none"
+  />
+
+  {/* The "N" in slate-blue */}
+  <path d="M 84 60 L 84 166 L 94 166 L 94 84 Z" fill="#3B68A8" />
+  <path d="M 84 60 L 122 142 L 122 80 L 112 80 L 84 60 Z" fill="#3B68A8" />
+  <path d="M 112 34 L 112 142 L 122 142 L 122 34 Z" fill="#3B68A8" />
+
+  {/* The "O" */}
+  <ellipse cx="68" cy="102" rx="27" ry="29" fill="none" stroke="#FFFFFF" stroke-width="15" />
+
+  {/* The "B" */}
+  <path
+    d="M 124 66 L 145 66 C 154 66 160 72 160 81 C 160 87 156 91 151 94 C 158 97 163 103 163 113 C 163 125 154 133 141 133 L 124 133 Z"
+    fill="#C2D5EE"
+    opacity="0.85"
+    transform="translate(3, 0)"
+  />
+  <path
+    d="M 124 66 L 145 66 C 154 66 160 72 160 81 C 160 87 156 91 151 94 C 158 97 163 103 163 113 C 163 125 154 133 141 133 L 124 133 Z"
+    fill="#FFFFFF"
+  />
+  <path d="M 134 76 L 142 76 C 146 76 149 78 149 82 C 149 86 146 88 142 88 L 134 88 Z" fill="#000000" />
+  <path d="M 134 101 L 144 101 C 149 101 152 103 152 109 C 152 115 149 117 144 117 L 134 117 Z" fill="#000000" />
+</svg>
