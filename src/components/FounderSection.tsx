@@ -38,9 +38,18 @@ export const FounderSection: React.FC<FounderSectionProps> = ({
           <div className="lg:col-span-4 bg-[#0D111A] border border-[#1E293B] rounded-2xl p-6 sm:p-8 space-y-6">
             <div className="relative">
               {/* Modern geometric avatar portrait representation */}
-              <div className="w-24 h-24 rounded-2xl bg-black border-2 border-[#3B68A8]/40 flex items-center justify-center shadow-xl relative overflow-hidden group">
-                <div className="absolute inset-0 bg-[#3B68A8]/10" />
-                <ONBLogo variant="mark" size="sm" />
+              <div className="w-full aspect-[3/4] max-w-xs rounded-2xl border-2 border-[#3B68A8]/40 shadow-xl overflow-hidden">
+                <picture>
+                  <source srcSet="/images/samuel-onibonoje.webp" type="image/webp" />
+                  <img
+                    src="/images/samuel-onibonoje.jpg"
+                    alt="Samuel Onibonoje, Founder & Sales Team Lead of ONB Sales Firm"
+                    width={720}
+                    height={960}
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                  />
+                </picture>
               </div>
               <div className="absolute -bottom-2 right-2 w-6 h-6 rounded-full bg-[#0D111A] border-2 border-[#3B68A8] flex items-center justify-center">
                 <div className="w-2 h-2 rounded-full bg-[#3B68A8]" />
